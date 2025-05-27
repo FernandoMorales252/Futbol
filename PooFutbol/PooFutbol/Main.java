@@ -9,14 +9,24 @@ public class Main {
 
         // Llamar a los métodos de cada instancia
         futbolista.concentrarse();
-        futbolista.viajar();
-        
+        futbolista.jugarPartido();
+        futbolista.entrenar();
+        System.out.println("Dorsal: " + futbolista.getDorsal());
+        System.out.println("Demarcación: " + futbolista.getDemarcacion());
+        System.out.println("nombre: " + futbolista.getNombre());
+
         entrenador.concentrarse();
         entrenador.viajar();
+        entrenador.dirigirEquipo();
+        entrenador.dirigirEntrenamiento();
+        System.out.println("ID Federación: " + entrenador.getIdFederacion());
+        System.out.println("nombre: " + entrenador.getNombre());
         
         masajista.concentrarse();
         masajista.viajar();
         masajista.darMasaje();
+        System.out.println("nombre: " + masajista.getNombre());
+        
     }
 
 }

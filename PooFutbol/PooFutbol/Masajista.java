@@ -12,16 +12,16 @@ public class Masajista extends Persona {
 
     @Override
     public void concentrarse() {
-        System.out.println("El masajista " + getNombre() + " " + getApellidos() + " se está concentrando.");
+        System.out.println("El masajista se está concentrando.");
     }
 
     @Override
     public void viajar() {
-        System.out.println("El masajista " + getNombre() + " " + getApellidos() + " está viajando.");
+        System.out.println("El masajista está viajando.");
     }
 
     public void darMasaje() {
-        System.out.println("El masajista " + getNombre() + " " + getApellidos() + " está dando un masaje.");
+        System.out.println("El masajista está dando un masaje.");
     }
 
     public String getTitulacion() {

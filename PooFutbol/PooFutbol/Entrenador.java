@@ -12,20 +12,20 @@ public class Entrenador extends Persona {
 
     @Override
     public void concentrarse() {
-        System.out.println("El entrenador " + getNombre() + " " + getApellidos() + " se está concentrando.");
+        System.out.println("El entrenador se está concentrando.");
     }
 
     @Override 
     public void viajar() {
-        System.out.println("El entrenador " + getNombre() + " " + getApellidos() + " está viajando.");
+        System.out.println("El entrenador está viajando.");
     }
 
     public void dirigirEquipo() {
-        System.out.println("El entrenador " + getNombre() + " " + getApellidos() + " está dirigiendo el equipo.");
+        System.out.println("El entrenador está dirigiendo el equipo.");
     }
 
     public void dirigirEntrenamiento() {
-        System.out.println("El entrenador " + getNombre() + " " + getApellidos() + " está dirigiendo el entrenamiento.");
+        System.out.println("El entrenador está dirigiendo el entrenamiento.");
     }
 
 

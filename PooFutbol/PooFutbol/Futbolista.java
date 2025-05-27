@@ -4,6 +4,8 @@ public class Futbolista extends Persona {
 private String demarcacion;
 private int dorsal;
 
+
+
 public Futbolista(int id, String nombre, String apellidos, int edad,int dorsal, String demarcacion) {
     super(id, nombre, apellidos, edad , dorsal);
     this.demarcacion = demarcacion;
@@ -12,12 +14,19 @@ public Futbolista(int id, String nombre, String apellidos, int edad,int dorsal, 
 
 @Override
 public void concentrarse() {
-    System.out.println("El futbolista " + getNombre() + " " + getApellidos() + " se está concentrando.");
+    System.out.println("El futbolista se está concentrando.");
 }
 
 public void Viajar() {
-    System.out.println("El futbolista " + getNombre() + " " + getApellidos() + " está viajando.");
+    System.out.println("El futbolista está viajando.");
   
+}
+public void jugarPartido() {
+    System.out.println("El futbolista  está jugando un partido.");
+}
+
+public void entrenar() {
+    System.out.println("El futbolista esta entrenando.");
 }
 
 public int getDorsal() {

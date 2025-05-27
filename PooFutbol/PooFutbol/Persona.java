@@ -1,20 +1,22 @@
 package PooFutbol;
-public abstract class Persona {
+public class Persona {
  private int id;
     private String nombre;
     private String apellidos;
     private int edad;  
     
-    public Persona(int id, String nombre, String apellidos, int edad, int dorsal) {
+    public Persona(int id, String nombre, String apellidos, int edad2) {
         this.id = id;
         this.nombre = nombre;
         this.apellidos = apellidos;
-        this.edad = edad;
+      
     }
 
-    public Persona(int id2, String nombre2, String apellidos2, int edad2) {
+
+    public Persona(int id2, String nombre2, String apellidos2, int edad2, int dorsal) {
         //TODO Auto-generated constructor stub
     }
+
 
     public int getId() {
         return id;
@@ -49,9 +51,10 @@ public abstract class Persona {
     }
     
     public void viajar() {
-        System.out.println("La persona está viajando.");
     }
 
-    public abstract void concentrarse(); 
+    public void concentrarse() {
+        System.out.println("La persona se está concentrando.");
+    } 
 
 }
