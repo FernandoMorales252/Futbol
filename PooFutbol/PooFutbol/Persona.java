@@ -5,11 +5,15 @@ public abstract class Persona {
     private String apellidos;
     private int edad;  
     
-    public Persona(int id, String nombre, String apellidos, int edad) {
+    public Persona(int id, String nombre, String apellidos, int edad, int dorsal) {
         this.id = id;
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.edad = edad;
+    }
+
+    public Persona(int id2, String nombre2, String apellidos2, int edad2) {
+        //TODO Auto-generated constructor stub
     }
 
     public int getId() {
